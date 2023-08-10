@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.nav-img{
+    width: 110px;
+  
+}
+.footer-img{
+    width: 250px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.footer-p{
+    font-size: 11px;
+}
+
+li{
+    list-style: none;
+}
+input:focus{
+    outline: none;
+}
+.side-img{
+    background-image: url(/img/sidealt.png);
+    background-size: cover;
+    background-position: top;
+   background-repeat: no-repeat;
+   
+}
+.slide-img{
+   height: 60vh;
+}
+.ayirac{
+    height: 300px;
+}
+.fotter-bg{
+   background-image: url(https://media.istockphoto.com/id/692794510/tr/vekt%C3%B6r/noktal%C4%B1-d%C3%BCnya-haritas%C4%B1.jpg?s=170667a&w=0&k=20&c=dWGVGQqjdmjVJ0k2wlNf_uQ8SnL3g3hkD_G63EDtfAM=);
+  
+   background-position: center;
+   background-size: cover;
+   
+ 
+
+}
+.card-body .addItem:disabled {
+opacity: 0.4;
+cursor: no-drop;
+}
+.cart-btn:hover{
+        background-color: gray;
+}
+.cart-img{
+   width: 40%;
+   
+}
+/* ! positionlar */
+.cart-position .iki{
+    position: absolute;
+     left: 48%;
+ }
+.cart-position .üç{
+   position: absolute;
+    left: 61%;
+}
+.cart-position .dört{
+    position: absolute;
+     right: 12%;
+ }
+ /* ! Arttırma Buton Hover */
+ .btn-cart:hover{
+    background-color: grey;
+    transform: scale(1.1);
+ }
+        /* ! Acordion plus */
+    .accordion-button::after {
+      background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+      transform: scale(.7) !important;
+    }
+    .accordion-button:not(.collapsed)::after {
+      background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    }
+    .acardionUnder{
+            padding: 12px 18px;
+            text-decoration: none;
+        
+        }
+      
+                /* ! Çizgiler */
+        .cizgi {
+            overflow: hidden;
+            text-align: center;
+            }
+            .cizgi:before,
+            .cizgi:after {
+            background-color: rgba(128, 128, 128, 0.356);
+            content: "";
+            display: inline-block;
+            height: 1px;
+            position: relative;
+            vertical-align: middle;
+            width: 50%;
+            }
+            .cizgi:before {
+            right: 0.5em;
+            margin-left: -50%;
+            }
+            .cizgi:after {
+            left: 0.5em;
+            margin-right: -50%;
+            }
+  

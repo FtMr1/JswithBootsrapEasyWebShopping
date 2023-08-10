@@ -1,0 +1,44 @@
+[{
+    "id":1,
+     "baslik": "WhiteTshirt ",
+     "fiyat":69.99,
+     "url":"img/foto1.jpg"
+
+},
+ 
+
+{
+    "id":2,
+   "baslik": "WhiteTshirt ",
+    "fiyat":59.99,
+    "url":"img/foto2.webp"
+
+},
+{
+    "id":3,
+   "baslik": "WhiteTshirt ",
+    "fiyat":99.99,
+    "url":"img/foto3.jpg"
+
+},
+{
+    "id":4,
+   "baslik": "GreyTshirt ",
+    "fiyat":49.99,
+    "url":"img/foto4.jpeg"
+
+},
+{
+    "id":5,
+   "baslik": "PinkTshirt ",
+    "fiyat":59.99,
+    "url":"img/foto5.webp"
+
+},
+{
+    "id":6,
+   "baslik": "WhiteSweater ",
+    "fiyat":79.99,
+    "url":"img/foto6.webp"
+
+}]
